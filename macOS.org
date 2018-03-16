@@ -1,0 +1,9 @@
+* Tips/Tricks
+** command line
+*** Suspend system/Trigger user switcher
+/System/Library/CoreServices/Menu\ Extras/user.menu/Contents/Resources/CGSession -suspend
+*** Trigger screen saver aka lock screen
+ $ defaults write com.apple.screensaver askForPassword -bool TRUE
+ $ defaults write com.apple.screensaver askForPasswordDelay -int 1
+ $ defaults read com.apple.screensaver
+ $ pmset displaysleepnow
