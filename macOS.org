@@ -7,3 +7,6 @@
  $ defaults write com.apple.screensaver askForPasswordDelay -int 1
  $ defaults read com.apple.screensaver
  $ pmset displaysleepnow
+** Finder
+*** Show all files in Finder
+CMD + SHIFT + .
