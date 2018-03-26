@@ -1,0 +1,2 @@
+* How to revert a file in a branch to master
+git checkout origin/master -- filename
