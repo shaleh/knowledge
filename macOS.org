@@ -7,6 +7,15 @@
  $ defaults write com.apple.screensaver askForPasswordDelay -int 1
  $ defaults read com.apple.screensaver
  $ pmset displaysleepnow
+** What is my local IP?
+ipconfig getifaddr en0 -->  192.168.10.140
+** Listening on a port?
+lsof -n -iTCP:8000 | grep LISTEN
+com.docke 8985 seanperry   24u  IPv4 0x789f4ba078d5a521      0t0  TCP *:irdmi (LISTEN)
+com.docke 8985 seanperry   25u  IPv6 0x789f4ba068760c59      0t0  TCP [::1]:irdmi (LISTEN)
+lsof -iTCP -sTCP:LISTEN -n -P
 ** Finder
 *** Show all files in Finder
 CMD + SHIFT + .
+** Make a screen cast
+Just use Quicktime Player. The stop button is on the toolbar near the clock!!
