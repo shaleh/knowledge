@@ -1,2 +1,4 @@
 * How to revert a file in a branch to master
 git checkout origin/master -- filename
+* What is the current branch?
+git rev-parse --abbrev-ref HEAD
